@@ -704,6 +704,22 @@ p {
     margin: auto auto auto auto;
 }
 
+.texte-size{
+    font-size: 22px;
+}
+
+.citation {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 1px;
+}
+
+.citation-signature{
+    font-size: 15px;
+    color: #575757;
+    
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
