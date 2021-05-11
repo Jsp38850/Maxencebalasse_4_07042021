@@ -22,13 +22,10 @@ a:hover {
     background-color: rgb(0, 0, 0);
 }
 
-span:focus{
-    color: white;
-}
-
-button:focus{
+a:focus{
     background-color: rgb(255, 255, 255);
     border-color: black;
+    height: 100%;
 }
 
 
@@ -714,6 +711,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: black !important;
 }
 
 .texte-size{
