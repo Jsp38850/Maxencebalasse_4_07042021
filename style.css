@@ -18,6 +18,20 @@ a:hover {
     cursor: pointer;
 }
 
+.contact:focus{
+    background-color: rgb(0, 0, 0);
+}
+
+span:focus{
+    color: white;
+}
+
+button:focus{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -332,8 +346,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
     background: transparent;
 }
 
@@ -454,8 +467,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }

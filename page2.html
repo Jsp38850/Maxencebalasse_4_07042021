@@ -27,7 +27,7 @@
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <header tabindex="1">
+      <header>
         <div class="bloc bgc-white l-bloc" id="bloc-0">
           <div class="container bloc-sm">
             <nav class="navbar row">
@@ -38,11 +38,11 @@
               <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                 <ul class="site-navigation nav navbar-nav">
                   <li>
-                    <a href="index.html">Accueil</a>
+                    <a href="index.html" tabindex="1">Accueil</a>
                   </li>
                   <li></li>
                   <li>
-                    <a href="page2.html">Contact</a>
+                    <a href="page2.html" tabindex="2">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -53,12 +53,12 @@
       <!-- bloc-0 END -->
 
       <!-- bloc-6 -->
-      <section id="banniere2_section" tabindex="2">
+      <section id="banniere2_section">
         <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
           <div class="container bloc-lg">
             <div class="row">
               <div class="col-sm-12">
-                <h1 class="text-center hero-bloc-text dark">Parlons web design !</h1>
+                <h1 class="text-center hero-bloc-text dark ">Parlons web design !</h1>
                 <p class="text-center mg-lg dark tight-width-whitespace">
                   Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br />
                   Parlez-nous de votre projet en complétant le formulaire ci-dessous.
@@ -71,7 +71,7 @@
       <!-- bloc-6 END -->
 
       <!-- bloc-7 -->
-      <section id="contact_section" tabindex="3">
+      <section id="contact_section">
         <div class="bloc bgc-white l-bloc" id="bloc-7">
           <div class="container bloc-lg">
             <div class="row">
@@ -80,20 +80,20 @@
                 <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
                   <div class="form-group">
                     <label> Nom </label>
-                    <input id="name" class="form-control" required />
+                    <input id="name" class="form-control" required tabindex="3"/>
                   </div>
                   <div class="form-group">
                     <label> Adresse email </label>
-                    <input id="email" class="form-control" type="email" required />
+                    <input id="email" class="form-control" type="email" required tabindex="4" />
                   </div>
                   <div class="form-group">
                     <label> Comment nous avez-vous connu ? </label>
-                    <input class="form-control" type="email" required id="input_504" />
+                    <input class="form-control" type="email" required id="input_504" tabindex="5" />
                   </div>
                   <div class="form-group">
-                    <label> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br /> </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                    <label> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br /> </label><textarea id="message" class="form-control" rows="4" cols="50" required tabindex="6"></textarea>
                   </div>
-                  <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
+                  <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" tabindex="7">Envoyer</button>
                 </form>
               </div>
               <div class="col-sm-6 text-center ">
@@ -112,12 +112,10 @@
       </section>
       <!-- bloc-7 END -->
 
-      <!-- ScrollToTop Button -->
-      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-      <!-- ScrollToTop Button END-->
+    
 
       <!-- Footer - bloc-8 -->
-      <footer tabindex="4">
+      <footer>
         <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
           <div class="container bloc-sm">
             <div class="row">
@@ -126,22 +124,22 @@
                 <div class="row row-no-gutters social">
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+                      <a class="social" href="index.html" ><span class="fa fa-twitter icon-md" tabindex="8"></span></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+                      <a class="social" href="index.html"><span class="fa fa-facebook icon-md" tabindex="9"></span></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+                      <a class="social" href="index.html"><span class="fa fa-dribbble icon-md" tabindex="10"></span></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+                      <a class="social" href="index.html"><span class="fa fa-instagram icon-md" tabindex="11"></span></a>
                     </div>
                   </div>
                 </div>
